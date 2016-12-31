@@ -21,6 +21,7 @@ function ss({host, port, pwd, local, aes}) {
     child.stderr.on('data', (data) => {
       const text = data.toString();
       if (text.indexOf('ERROR') > 0) {
+        console.error(host, port, pwd, local, aes);
         reject();
         return;
       }
@@ -33,7 +34,6 @@ function ss({host, port, pwd, local, aes}) {
     });
 
     child.on('close', (code) => {
-      // console.log(`child process exited with code ${code}`);
       process.nextTick(reject);
     });
   });

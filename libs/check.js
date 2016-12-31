@@ -17,11 +17,11 @@ function check(config) {
 		})
 		.finally(() => {
 			try {
-				ssClient.kill();
+				ssClient.child.kill();
 			} catch (e) {
 
 			}
-		});
+		});;
 }
 
 module.exports = check;
