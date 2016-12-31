@@ -1,0 +1,22 @@
+{
+  "name": "shadowsocks-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rekey/shadowsocks-check.git"
+  },
+  "author": "RekeyLuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rekey/shadowsocks-check/issues"
+  },
+  "homepage": "https://github.com/rekey/shadowsocks-check#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  }
+}
