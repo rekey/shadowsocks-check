@@ -17,19 +17,19 @@ function checkList(list) {
 
 module.exports = checkList;
 
-const list = [{
-	host: 'test1.ss',
-	port: 1234,
-	pwd: 'password',
-	aes: 'aes-256-cfb'
-}, {
-	host: 'test1.ss',
-	port: 1234,
-	pwd: 'password',
-	aes: 'aes-256-cfb'
-}];
+// const list = [{
+// 	host: 'test1.ss',
+// 	port: 1234,
+// 	pwd: 'password',
+// 	aes: 'aes-256-cfb'
+// }, {
+// 	host: 'test1.ss',
+// 	port: 1234,
+// 	pwd: 'password',
+// 	aes: 'aes-256-cfb'
+// }];
 
-checkList(list)
-	.then((list) => {
-		console.log(list);
-	});
+// checkList(list)
+// 	.then((list) => {
+// 		console.log(list);
+// 	});
