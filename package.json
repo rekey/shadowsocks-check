@@ -1,6 +1,6 @@
 {
   "name": "shadowsocks-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/rekey/shadowsocks-check#readme",
   "dependencies": {
-    "bluebird": "^3.4.7"
+    "bluebird": "^3.5.0"
   }
 }

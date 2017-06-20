@@ -20,7 +20,7 @@ function curl(local) {
 			if (resp.length) {
 				return resolve(resp.join(''));
 			}
-			reject(err.join(''));
+			resolve(new Error(code));
 		});
 	});
 }

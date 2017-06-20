@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="163159a5-3595-4797-b1f6-9534be8adf32" name="root@123.206.29.148" url="http://123.206.29.148">
+        <fileTransfer host="123.206.29.148" port="22" rootFolder="/root/shadowsocks-check" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
